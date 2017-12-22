@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["psoliver92"]
   spec.email         = ["psoliver92@gmail.com"]
 
-  spec.summary       = %q{A gem to determine when the next full moon is.}
+  spec.summary       = %q{A gem to determine when the next full moon is or if a specific date is a full moon.}
   spec.description   = %q{This gem will provide the next date of the full moon and also determine if a given date is a full moon or not.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
