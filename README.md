@@ -1,6 +1,6 @@
 # FullMoon
 
-This gem is a ruby translation and implementation of the [Astro::MoonPhase Perl module](http://search.cpan.org/~brett/Astro-MoonPhase-0.60/MoonPhase.pm). You can use this gem to determine the occurrence of the next full moon or to determine if a given date is/was/will be a full moon.
+This gem is a ruby translation and implementation of the [Astro::MoonPhase Perl module](http://search.cpan.org/~brett/Astro-MoonPhase-0.60/MoonPhase.pm) via the [PHP implentation](http://www.sentry.net/~obsid/moonphase). You can use this gem to determine the occurrence of the next full moon or to determine if a given date is/was/will be a full moon.
 
 ## Installation
 
