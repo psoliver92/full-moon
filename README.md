@@ -1,8 +1,6 @@
 # FullMoon
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/full_moon`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem is a ruby translation and implementation of the [Astro::MoonPhase Perl module](http://search.cpan.org/~brett/Astro-MoonPhase-0.60/MoonPhase.pm). You can use this gem to determine the occurrence of the next full moon or to determine if a given date is/was/will be a full moon.
 
 ## Installation
 
@@ -22,7 +20,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Two classes can be called. One determines the next full moon. The other determines if a given date is a full moon or not.
+
+```
+FullMoon::NextFullMoon.next_full_moon
+# returns EPOCH for next full moon
+
+FullMoon::IsFullMoon.is_full_moon('2018-01-02')
+# returns true or false
+```
 
 ## Development
 
