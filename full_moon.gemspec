@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "full_moon/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "full_moon"
+  spec.name          = "full-moon"
   spec.version       = FullMoon::VERSION
   spec.authors       = ["psoliver92"]
   spec.email         = ["psoliver92@gmail.com"]
