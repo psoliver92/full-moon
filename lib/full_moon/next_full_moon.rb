@@ -11,6 +11,15 @@ module FullMoon
       full_moon.floor
     end
 
+    def self.next_full_moon_from(future_time)
+      time = future_time.to_i
+      full_moon = moon_phase(time, 0.5)
+
+      return moon_phase(time, 0.5, true).floor if full_moon < time
+
+      full_moon.floor
+    end
+
     def self.moon_phase(time, phase, second=false)
       k1k2 = time_2k_1_k2(time)
 
